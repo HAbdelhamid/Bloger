@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
     <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
