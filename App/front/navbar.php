@@ -35,10 +35,10 @@
               <!-- Right -->
               <ul class="navbar-nav nav-flex-icons">
                   <li class="nav-item">
-                    <button type="button" class="btn btn-info m-0 mx-2">Sign Up</button>
+                    <button type="button" class="btn btn-info rounded-pill m-0 mx-2 my-1">Sign Up</button>
                   </li>
                   <li class="nav-item">
-                    <button type="button" class="btn btn-info m-0 mx-2">Sign In</button>
+                    <button type="button" class="btn btn-info rounded-pill m-0 mx-2 my-1">Sign In</button>
                   </li>
               </ul>
 
