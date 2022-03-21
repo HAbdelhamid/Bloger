@@ -1,6 +1,6 @@
 <?php 
     
-    require("App/front/signup.php");
+    require("App/front/posts.php");
 
 
 ?>
