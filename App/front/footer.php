@@ -1,13 +1,15 @@
-    <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark">
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-5 h-100">© 2022 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> TechnoBlog.com</a>
-        </div>
-        <!-- Copyright -->
+    <div class="">
+        <!-- Footer -->
+        <footer class="page-footer font-small unique-color-dark mt-auto">
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-5">© 2022 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/"> TechnoBlog.com</a>
+            </div>
+            <!-- Copyright -->
 
-    </footer>
-    <!-- Footer -->
+        </footer>
+        <!-- Footer -->
+    </div>
     
     <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
