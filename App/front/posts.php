@@ -25,7 +25,7 @@
             <!-- Title -->
             <h4 class="card-title"><?=$post['title']?></h4>
             <!-- Text -->
-            <p class="card-text"><?=$post['content']?></p>
+            <p class="card-text text-truncate"><?=$post['content']?></p>
             <!-- Button -->
             <a href="#" class="btn btn-primary">Button</a>
 
