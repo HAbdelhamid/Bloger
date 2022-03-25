@@ -3,7 +3,7 @@
         <footer class="page-footer font-small unique-color-dark mt-auto">
             <!-- Copyright -->
             <div class="footer-copyright text-center py-5">© 2022 Copyright:
-                <a href="https://mdbootstrap.com/education/bootstrap/"> TechnoBlog.com</a>
+                <a href="https://mdbootstrap.com/education/bootstrap/"> TechnoBlog</a>
             </div>
             <!-- Copyright -->
 
