@@ -23,7 +23,7 @@
                 <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/angular/" target="_blank">Angular</a>
+                <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/angular/" target="_blank">Articles</a>
             </ul>
     
             <!-- Right -->
