@@ -53,24 +53,38 @@
 </div>
 <nav class="d-flex justify-content-center my-4">
     <ul class="pagination pg-blue">
-        <li class="page-item">
-        <a class="page-link" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-        </a>
+        <?php
+            if($page>1){
+                $switch="";
+            }else {
+                $switch="disabled";
+            }
+        ?>
+        <?php
+            if($page<$total_pages){
+                $bswitch="";
+            }else {
+                $bswitch="disabled";
+            }
+        ?>
+        <li class="page-item <?=$switch?>">
+            <a class="page-link" aria-label="Previous" href="?page=<?=$page-1?>">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
         </li>
-<?php
-    for ($page=1; $page<=$total_pages ; $page++) { 
-?>        
-        <li class="page-item"><a class="page-link" href="?page=<?=$page?>"><?=$page?></a></li>
-<?php    
-    }
-?>
-        <li class="page-item">
-        <a class="page-link" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-        </a>
+        <?php
+            for($opage=1; $opage<=$total_pages ;$opage++) { 
+        ?>        
+            <li class="page-item"><a class="page-link" href="?page=<?=$opage?>"><?=$opage?></a></li>
+        <?php    
+            }
+        ?>
+        <li class="page-item <?=$bswitch?>">
+            <a class="page-link" aria-label="Next" href="?page=<?=$page+1?>">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+            </a>
         </li>
     </ul>
 </nav>
