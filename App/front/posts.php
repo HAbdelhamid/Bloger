@@ -10,7 +10,7 @@
 ?>
 <div class="m-4 ">
     <?php
-        $sql = "SELECT * FROM posts LIMIT $result,$post_per_page";
+        $sql = "SELECT * FROM posts ORDER BY id DESC LIMIT $result,$post_per_page";
         $result = mysqli_query($conn, $sql);
         while ($post=mysqli_fetch_assoc($result)) {
     ?>
