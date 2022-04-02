@@ -20,11 +20,18 @@
             <!-- Left -->
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">Home</a>
+                <a class="nav-link waves-effect" href="http://localhost/bloger/index.php">Home</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/angular/" target="_blank">Articles</a>
             </ul>
+
+            <form class="form-inline d-flex active-cyan active-cyan-2 ">
+              <a href="" class="">
+                <i class="fas fa-search" aria-hidden="true"></i>
+              </a>
+              <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"aria-label="Search">
+            </form>
     
             <!-- Right -->
             <ul class="navbar-nav nav-flex-icons">

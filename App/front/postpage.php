@@ -1,5 +1,6 @@
 <?php
     require("../back/db.php");
+    require("../functions/functions.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,11 +62,8 @@
                 <!-- Social shares -->
                 <div class="social-counters">
                     <!-- Comments -->
-                    <a class="btn btn-default">
                     <i class="far fa-comments pr-2"></i>
-                    <span class="clearfix d-none d-md-inline-block">Comments</span>
-                    </a>
-                    <span class="counter">18</span>
+                    <span class="clearfix d-none d-md-inline-block badge bg-danger"><?=getCategory($conn,$post['category_id'])?></span>
                 </div>
                 <!-- Social shares -->
 

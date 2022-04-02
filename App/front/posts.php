@@ -15,7 +15,7 @@
         while ($post=mysqli_fetch_assoc($result)) {
     ?>
         <!-- Card -->
-        <div class="card p-0 my-4 col-sm-3 col-md-6 col-lg-6">
+        <div class="card p-0 my-4 col-sm-3 col-md-4 col-lg-4">
 
             <!-- Card image -->
             <div class="view overlay">
