@@ -58,7 +58,7 @@
                 <!-- Title -->
                 <h3 class="font-weight-bold"><a><?=$post['title']?></a></h3>
                 <!-- Data -->
-                <p>Written by <a><strong>Abby Madison</strong></a>, <?=date('F jS, Y',strtotime($post['created_at']))?></p>
+                <p>Written by <a><strong>Abby </strong></a>, <?=date('F jS, Y',strtotime($post['created_at']))?></p>
                 <!-- Social shares -->
                 <div class="social-counters">
                     <!-- Comments -->
